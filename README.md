@@ -35,6 +35,7 @@ Python OpenCV 를 이용하여 얼굴 표정을 인식하고, 분석한 표정�
 ### 프로젝트 기획 및 목적
 * 시연영상 : https://ddongkim.tistory.com/37
 * 원본 팀 깃허브 : https://github.com/cmjcum/Jellymodi_team
+* 프로젝트 기간 : 2022.05.18 ~ 2022.05.24
 
 * 목적 : backend 실력 향상 ( HTML, JavaScript, Ajax, Python, Flask, MongoDB )
 * 1차 목표 : 인스타 페이지 기본기능 구현
