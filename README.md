@@ -1,5 +1,14 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/104331479/185329655-95f41df4-dec5-4e94-b6b8-471a0ef2deba.png" width="80%" height="80%"></p>
 
+<br>**목차**
+<br>[1. 프로젝트 소개](#intro)
+<br>[2. 프로젝트 기획 및 목적 - 시연영상](#프로젝트-기획-및-목적)
+<br>[3. 맡은 역할](#담당-역할)
+<br>[4. 트러블슈팅](#troubleshooting)
+<br>[5. 회고](#회고)
+
+<br>
+
 # <img src="https://user-images.githubusercontent.com/104331479/185330319-86af99b3-0eb2-4a75-a0c4-2b36808a3734.png" width="30" height="30"/> Project Jellymodi
 
 **머신러닝 사물인식 프로젝트 - 젤리모디(Jellymodi: Jelly mood diary)**
