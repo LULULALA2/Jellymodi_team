@@ -80,9 +80,12 @@ model.compile(loss='categorical_crossentropy', optimizer=Adam(lr=0.001), metrics
 - 회원가입/로그인 페이지, 글 작성 페이지 제작
 - 회원가입/로그인 기능 구현
 
+<br>
+
 ### ERD
 ![186601476-8fe8385d-8390-4747-9240-915795ca906c](https://user-images.githubusercontent.com/104331479/187063943-d493f725-7dc5-4240-8ee7-e348446cc377.png)
 
+<br>
 
 # 🧨TroubleShooting
 
@@ -90,6 +93,8 @@ model.compile(loss='categorical_crossentropy', optimizer=Adam(lr=0.001), metrics
 책 표지나 포스터 등 얼굴이 아닌 것을 얼굴로 인식하는 문제가 발생했습니다. 사진 속의 얼굴 크기 평균치를 계산해서 얼굴 검출 사이즈를 평균크기 이상으로 한정시켜서 얼굴이 아닌 것을 얼굴로 인식하는 문제를 대부분 해결할 수 있었습니다.
 
 <code> faces = face_cascade.detectMultiScale(gray, 1.2, minSize=(75,75)) </code>
+
+<br>
 
 ### 2. 사진에서 얼굴만 잘라 저장하는 과정에서 계속 오류 발생
 데이터 전처리과정에서 사진에서 얼굴만 잘라 저장해 모델을 학습시키려고 했습니다. 그런데 특정 사진은 얼굴인식도 제대로 되지 않고, 다음 사진으로도 넘어가지 않고 계속 오류로 멈추는 문제가 발생했습니다.
